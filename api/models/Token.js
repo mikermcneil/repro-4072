@@ -7,7 +7,7 @@
 
 module.exports = {
 
-  // primaryKey: 'foo',
+  primaryKey: 'foo',
 
   attributes: {
 
@@ -16,7 +16,7 @@ module.exports = {
       columnName: 'bar'
     },
 
-    // foo: { type: 'string', },
+    foo: { type: 'string', },
 
     // _id: {
     //   type: 'string',
