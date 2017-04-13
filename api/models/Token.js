@@ -13,7 +13,7 @@ module.exports = {
 
     _id: {
       type: 'string',
-      columnName: '_id',
+      // columnName: '_id',  //<< with or without this
     },
 
     objectId: {
