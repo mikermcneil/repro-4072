@@ -7,16 +7,21 @@
 
 module.exports = {
 
-  primaryKey: 'foo',
+  // primaryKey: 'foo',
 
   attributes: {
 
-    foo: { type: 'string', },
-
     _id: {
       type: 'string',
-      // columnName: '_id',  //<< with or without this
+      columnName: 'bar'
     },
+
+    // foo: { type: 'string', },
+
+    // _id: {
+    //   type: 'string',
+    //   // columnName: '_id',  //<< with or without this
+    // },
 
     objectId: {
       type: 'string',
