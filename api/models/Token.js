@@ -7,9 +7,11 @@
 
 module.exports = {
 
-  primaryKey: '_id',
+  primaryKey: 'foo',
 
   attributes: {
+
+    foo: { type: 'string', },
 
     _id: {
       type: 'string',
